@@ -1,0 +1,159 @@
+  body {
+  margin: 0;
+  padding: 0;
+
+
+
+}
+#girle1{
+  background-image: url("../img/girle.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+
+
+
+
+}
+
+
+li {
+ list-style: none;
+ list-style-type: none;
+ margin-left: 15px;
+
+
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-family:sans-serif;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 17px 30px;
+  background-color: #8080804a;
+  position: fixed;
+  width: 100%;  
+  z-index: 9999;
+
+
+
+}
+header > nav > ul{
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 35px;
+  text-transform: uppercase;
+  opacity: 0.7;
+
+
+}
+ li a:hover {
+  color:#ad257d;
+}
+.welcome{
+  color: white;
+  font-size: 30px;
+  font-family:serif;
+  font-weight: normal;
+  display: flex;
+  justify-content:space-around;
+  align-items:stretch;
+  position: absolute;
+  left: 180px;
+  bottom: 350px;
+}
+.standout{
+  color: white;
+  font-size: 70px;
+  position: absolute;
+  left: 175px;
+  bottom: 270px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+.paragraf{
+  color: white;
+  font-size: 30px;
+  font-weight: normal;
+  position: absolute;
+  left:175px;
+  bottom: 200px;
+
+
+}
+.button1{
+  background-color:  #ad257d;
+  position: absolute;
+  left: 170px;
+  bottom:80px;
+  color: white;
+  margin: 4px 7px;
+  padding: 15px 20px;
+  font-size: 15px;
+  display: inline-block;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+.button1:hover{
+  background-color: #b3488d;
+
+
+}
+#about1{
+  position: relative;
+
+}
+.about{
+  color: grey;
+  text-align: center;
+  position: absolute;
+  font-size: 35px;
+  bottom: -200px;
+  left: 590px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+.mac{
+  position: absolute;
+  width: 200px;
+  height: 300px;
+  left: 150px;
+  bottom:-520px;
+}
+.lorem{
+  color:#ad257d;
+  font-size: 30px;
+  position: absolute;
+  right: 280px;
+  bottom: -280px;
+}
+.lor1{
+  color:#80808099;
+  font-size: 20px;
+  position: absolute;
+  right: -50px;
+  bottom: -370px;
+  width: 700px;
+  height: 70px;
+  font-family:'roboto'sans-serif;
+}
+.lor2{
+  color: #80808099;
+  font-size: 20px;
+  position:absolute;
+  right: -50px;
+  bottom: -460px;
+  width: 700px;
+  height: 70px;
+  font-family:'roboto'sans-serif;
+
+}
